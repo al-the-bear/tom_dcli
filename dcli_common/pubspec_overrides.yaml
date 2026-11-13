@@ -11,5 +11,3 @@ dependency_overrides:
     path: ../dcli_terminal
   dcli_sdk:
     path: ../dcli_sdk
-  dcli:
-    path: ../dcli
