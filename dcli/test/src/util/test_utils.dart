@@ -5,8 +5,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import 'package:dcli/dcli.dart';
 import 'package:path/path.dart';
+import 'package:tom_dcli/dcli.dart';
 
 // Creates text file with the given no. of lines.
 /// @Throwing(ArgumentError)

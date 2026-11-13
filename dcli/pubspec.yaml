@@ -1,9 +1,12 @@
-name: dcli
-version: 10.4.7
-homepage: https://dcli.onepub.dev
+name: tom_dcli
+version: 10.4.7+tom.1
 documentation: https://dcli.onepub.dev
-description: Dart console SDK - write console (cli) apps/scripts using dart.
-repository: https://github.com/onepub-dev/dcli
+description: >-
+  Dart console SDK - write console (cli) apps/scripts using dart. The Tom
+  Framework's fork of dcli (MIT), reading INI files without the LGPL-3.0 ini
+  package.
+repository: https://github.com/al-the-bear/tom_dcli
+issue_tracker: https://github.com/al-the-bear/tom_dcli/issues
 environment:
   sdk: '>=3.10.1 <4.0.0'
 dependencies:

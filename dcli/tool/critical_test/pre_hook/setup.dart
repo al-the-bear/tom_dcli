@@ -7,9 +7,9 @@
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
 import 'package:dcli_core/dcli_core.dart' as core;
 import 'package:path/path.dart';
+import 'package:tom_dcli/dcli.dart';
 
 ///
 /// running unit tests from vs-code doesn't seem to work as it spawns

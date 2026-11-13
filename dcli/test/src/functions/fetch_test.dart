@@ -9,11 +9,11 @@ library;
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/util/parser.dart';
 import 'package:dcli_core/dcli_core.dart' as core;
 import 'package:path/path.dart' hide equals;
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/util/parser.dart';
 
 var baseURl =
     'https://github.com/onepub-dev/dcli/raw/master/dcli/test/src/functions/fetch_downloads';

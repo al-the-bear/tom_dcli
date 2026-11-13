@@ -5,9 +5,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-import 'package:dcli/dcli.dart';
-import 'package:dcli/posix.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/posix.dart';
 
 /// @Throwing(ArgumentError)
 /// @Throwing(DeleteException)

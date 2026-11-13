@@ -5,8 +5,8 @@
  * SPDX-License-Identifier: MIT
  */
 
-import 'package:dcli/src/util/ini_config.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/src/util/ini_config.dart';
 
 void main() {
   group('IniConfig', () {

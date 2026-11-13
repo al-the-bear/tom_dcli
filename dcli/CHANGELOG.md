@@ -1,3 +1,12 @@
+# 10.4.7+tom.1
+
+- Published as `tom_dcli`, the Tom Framework's fork of dcli 10.4.7
+  (<https://github.com/al-the-bear/tom_dcli>, branch `tom/10.4.7-no-ini`).
+  Its libraries are `package:tom_dcli/...`.
+- `Parser.iniDecode()` reads INI files with dcli's own `IniConfig` instead of
+  the `ini` package, which is LGPL-3.0 — the one copyleft dependency dcli had.
+  `IniConfig` keeps the method names of ini's `Config`. Offered upstream.
+
 # 10.4.7
 
 - Correct the generated package version bundled with the 10.4.6 warmup fix.

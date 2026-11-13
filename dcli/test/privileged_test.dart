@@ -8,9 +8,9 @@
 @TestOn('posix')
 library;
 
-import 'package:dcli/dcli.dart';
 import 'package:posix/posix.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
 
 /// @Throwing(ArgumentError)
 void main() {

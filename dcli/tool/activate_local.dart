@@ -7,7 +7,7 @@
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 
 /// globally activates dcli from a local path rather than a public package.
 ///

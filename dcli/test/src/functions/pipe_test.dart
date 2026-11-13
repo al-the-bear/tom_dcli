@@ -1,10 +1,10 @@
 @t.Timeout(Duration(seconds: 600))
 library;
 
-import 'package:dcli/dcli.dart';
 import 'package:dcli_test/dcli_test.dart';
 import 'package:path/path.dart';
 import 'package:test/test.dart' as t;
+import 'package:tom_dcli/dcli.dart';
 
 import '../util/test_utils.dart';
 

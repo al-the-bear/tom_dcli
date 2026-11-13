@@ -8,11 +8,11 @@
 import 'dart:io';
 
 import 'package:collection/collection.dart';
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/shell/posix_shell.dart';
 import 'package:dcli_core/dcli_core.dart' as core;
 import 'package:posix/posix.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/shell/posix_shell.dart';
 
 /// @Throwing(ArgumentError)
 /// @Throwing(DeleteException)

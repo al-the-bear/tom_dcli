@@ -9,9 +9,9 @@ library;
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
 import 'package:path/path.dart';
 import 'package:test/test.dart' as t;
+import 'package:tom_dcli/dcli.dart';
 
 var _testDir = 'path_test';
 

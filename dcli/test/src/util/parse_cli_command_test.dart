@@ -1,12 +1,12 @@
 @Timeout(Duration(seconds: 600))
 library;
 
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/util/parse_cli_command.dart';
 import 'package:dcli_core/dcli_core.dart' as core;
 import 'package:dcli_test/src/test_directory_tree.dart';
 import 'package:path/path.dart' hide equals;
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/util/parse_cli_command.dart';
 
 /// @Throwing(ArgumentError)
 /// @Throwing(CreateDirException)

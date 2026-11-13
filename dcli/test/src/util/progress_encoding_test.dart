@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/progress/progress_impl.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/progress/progress_impl.dart';
 
 /// @Throwing(ArgumentError)
 /// @Throwing(RangeError)

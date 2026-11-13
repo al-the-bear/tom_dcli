@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/resources/resource_packer.dart';
 import 'package:path/path.dart' as p;
 import 'package:scope/scope.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/resources/resource_packer.dart';
 
 void main() {
   test(

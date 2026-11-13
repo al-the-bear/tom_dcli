@@ -193,7 +193,7 @@ class Resources {
       /// Write the imports
       ///
       registryFile.writeStringSync('''
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 ''');
 
       /// sort the resources so the imports are sorted.

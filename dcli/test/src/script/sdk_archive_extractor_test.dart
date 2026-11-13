@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:archive/archive.dart';
-import 'package:dcli/src/script/sdk_archive_extractor.dart';
 import 'package:path/path.dart' as p;
 import 'package:test/test.dart';
+import 'package:tom_dcli/src/script/sdk_archive_extractor.dart';
 
 void main() {
   test('extracts files under dart-sdk', () {

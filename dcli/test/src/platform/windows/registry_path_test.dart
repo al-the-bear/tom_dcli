@@ -1,5 +1,5 @@
-import 'package:dcli/src/platform/windows/registry_path.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/src/platform/windows/registry_path.dart';
 
 void main() {
   late String value;

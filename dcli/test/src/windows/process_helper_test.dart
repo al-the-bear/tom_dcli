@@ -7,10 +7,10 @@
 
 import 'dart:io';
 
-import 'package:dcli/src/windows/process_helper.dart';
 import 'package:dcli_core/dcli_core.dart' as core;
 import 'package:path/path.dart' as p;
 import 'package:test/test.dart';
+import 'package:tom_dcli/src/windows/process_helper.dart';
 
 /// @Throwing(ArgumentError)
 void main() {

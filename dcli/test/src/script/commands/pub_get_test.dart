@@ -1,17 +1,17 @@
 @Timeout(Duration(minutes: 5))
 library;
 
+import 'package:dcli_test/dcli_test.dart';
+import 'package:path/path.dart';
+import 'package:test/test.dart';
 /* Copyright (C) S. Brett Sutton - All Rights Reserved
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
  * Written by Brett Sutton <bsutton@onepub.dev>, Jan 2022
  */
 
-import 'package:dcli/src/script/dart_project.dart';
-import 'package:dcli/src/script/pub_get.dart';
-import 'package:dcli_test/dcli_test.dart';
-import 'package:path/path.dart';
-import 'package:test/test.dart';
+import 'package:tom_dcli/src/script/dart_project.dart';
+import 'package:tom_dcli/src/script/pub_get.dart';
 
 /// @Throwing(ArgumentError)
 void main() {

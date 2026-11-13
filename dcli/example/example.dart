@@ -1,7 +1,7 @@
 #! /usr/bin/env dcli
 
-import 'package:dcli/dcli.dart';
 import 'package:path/path.dart';
+import 'package:tom_dcli/dcli.dart';
 
 void main() {
   try {

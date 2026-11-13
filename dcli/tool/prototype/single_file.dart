@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:args/args.dart';
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/script/packed_bundle_builder.dart';
 import 'package:path/path.dart' as p;
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/script/packed_bundle_builder.dart';
 
 /// Prototype: pack a Dart CLI bundle into a self-extracting native launcher.
 Future<void> main(List<String> arguments) async {

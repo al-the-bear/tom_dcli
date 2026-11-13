@@ -9,10 +9,10 @@ library;
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/util/file_system.dart';
 import 'package:path/path.dart' hide equals;
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/util/file_system.dart';
 
 /// @Throwing(ArgumentError)
 /// @Throwing(CreateDirException)

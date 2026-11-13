@@ -7,17 +7,17 @@ import 'dart:io';
 import 'dart:isolate';
 import 'dart:typed_data';
 
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/process/process/isolate_channel.dart';
-import 'package:dcli/src/process/process/message.dart';
-import 'package:dcli/src/process/process/message_response.dart';
-import 'package:dcli/src/process/process/process_in_isolate.dart';
-import 'package:dcli/src/process/process/process_settings.dart';
-import 'package:dcli/src/util/isolate_id.dart';
 import 'package:dcli_test/dcli_test.dart';
 import 'package:native_synchronization_temp/native_synchronization.dart';
 import 'package:path/path.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/process/process/isolate_channel.dart';
+import 'package:tom_dcli/src/process/process/message.dart';
+import 'package:tom_dcli/src/process/process/message_response.dart';
+import 'package:tom_dcli/src/process/process/process_in_isolate.dart';
+import 'package:tom_dcli/src/process/process/process_settings.dart';
+import 'package:tom_dcli/src/util/isolate_id.dart';
 
 /// @Throwing(ArgumentError)
 /// @Throwing(CreateDirException)

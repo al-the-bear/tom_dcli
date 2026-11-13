@@ -9,7 +9,7 @@ Demonstrates a grab bag of dcli features.
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 
 void main() {
   try {
@@ -154,7 +154,7 @@ Searches for the a java process called tomcat and kills it.
 ```dart
 #! /usr/bin/env dcli
 
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 
 void main() {
   // find all java processes
@@ -190,7 +190,7 @@ A toy REPL shell to replace your bash command line in just 50 lines of dart.
 #! /usr/bin/env dcli
 
 import 'dart:io';
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 
 /// A toy REPL shell to replace your bash command line in just 50 lines of dart.
 void main(List<String> args) {
@@ -250,8 +250,8 @@ Sort a file.
 #! /usr/bin/env dcli
 
 import 'dart:io';
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/util/file_sort.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/util/file_sort.dart';
 
 /// dsort
 ///
@@ -433,7 +433,7 @@ Implement the classic linux which command
 #! /usr/bin/env dcli
 
 import 'dart:io';
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 import 'package:args/args.dart';
 
 /// which appname
@@ -474,7 +474,7 @@ Installs (if not already installed) and runs mailhog.
 ```dart
 #! /usr/bin/env dcli
 
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 
 /// installs (if necessary) and runs mailhog
 void main() {

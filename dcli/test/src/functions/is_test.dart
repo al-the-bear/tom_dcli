@@ -5,12 +5,12 @@
  * SPDX-License-Identifier: MIT
  */
 
-import 'package:dcli/dcli.dart';
 import 'package:dcli_core/dcli_core.dart' as core;
 import 'package:dcli_test/dcli_test.dart';
 import 'package:path/path.dart' hide equals;
 import 'package:posix/posix.dart' as posix;
 import 'package:test/test.dart' hide isEmpty;
+import 'package:tom_dcli/dcli.dart';
 
 /// @Throwing(ArgumentError)
 /// @Throwing(CreateDirException)

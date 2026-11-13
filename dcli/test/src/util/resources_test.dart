@@ -5,11 +5,11 @@
  * SPDX-License-Identifier: MIT
  */
 
-//import 'package:dcli/src/dcli/resource/generated/resource_registry.g.dart';
-import 'package:dcli/dcli.dart';
 import 'package:path/path.dart';
 import 'package:scope/scope.dart';
 import 'package:test/test.dart';
+//import 'package:tom_dcli/src/dcli/resource/generated/resource_registry.g.dart';
+import 'package:tom_dcli/dcli.dart';
 
 /// const filename = 'PXL_20211104_224740653.jpg';
 /// @Throwing(ArgumentError)

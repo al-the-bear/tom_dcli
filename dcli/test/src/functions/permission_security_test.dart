@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
 import 'package:dcli_core/dcli_core.dart' as core;
 import 'package:path/path.dart' as path;
 import 'package:posix/posix.dart' as posix;
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
 
 void main() {
   test('permission checks do not run groups from the inspected PATH', () {

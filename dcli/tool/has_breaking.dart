@@ -1,6 +1,6 @@
 #! /usr/bin/env dcli
 
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 
 void main() {
   'dart-apitool diff --old pub://dcli --new .'.run;

@@ -15,7 +15,7 @@ class ResourcePacker {
     required String className,
     required String originalPath,
     required String checksum,
-    String runtimeImport = 'package:dcli/dcli.dart',
+    String runtimeImport = 'package:tom_dcli/dcli.dart',
   }) {
     final reader = File(source).openSync();
     final parts = <String>[];

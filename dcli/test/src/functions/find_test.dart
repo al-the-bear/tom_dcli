@@ -9,12 +9,12 @@ library;
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
 import 'package:dcli_core/dcli_core.dart' as core;
 import 'package:dcli_test/src/test_directory_tree.dart';
 import 'package:path/path.dart';
 import 'package:test/test.dart' as t;
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
 
 /// @Throwing(ArgumentError)
 /// @Throwing(CreateDirException)

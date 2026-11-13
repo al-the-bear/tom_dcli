@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 
 void main(List<String> args) {
   Settings().setVerbose(enabled: true);

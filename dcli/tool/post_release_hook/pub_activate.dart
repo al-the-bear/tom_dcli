@@ -7,8 +7,8 @@
 
 import 'dart:io' as io;
 
-import 'package:dcli/dcli.dart';
-import 'package:dcli/src/version/version.g.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/src/version/version.g.dart';
 
 /// Activate the latest version of dcli as part of the publishing the package.
 void main(List<String> args) {

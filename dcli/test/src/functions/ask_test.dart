@@ -1,17 +1,17 @@
 @Timeout(Duration(seconds: 600))
 library;
 
+import 'package:dcli_core/dcli_core.dart' as core;
+import 'package:dcli_terminal/dcli_terminal.dart';
+import 'package:test/test.dart';
 /* Copyright (C) S. Brett Sutton - All Rights Reserved
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
  * Written by Brett Sutton <bsutton@onepub.dev>, Jan 2022
  */
 
-import 'package:dcli/src/functions/ask.dart';
-import 'package:dcli/src/settings.dart';
-import 'package:dcli_core/dcli_core.dart' as core;
-import 'package:dcli_terminal/dcli_terminal.dart';
-import 'package:test/test.dart';
+import 'package:tom_dcli/src/functions/ask.dart';
+import 'package:tom_dcli/src/settings.dart';
 
 /// @Throwing(ArgumentError)
 void main() {

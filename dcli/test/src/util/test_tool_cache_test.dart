@@ -3,12 +3,12 @@ library;
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
 import 'package:dcli_core/dcli_core.dart' as core;
 import 'package:dcli_test/dcli_test.dart';
 import 'package:path/path.dart';
 import 'package:scope/scope.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
 
 const _commands = ['head', 'tail', 'ls', 'touch', 'run_child'];
 

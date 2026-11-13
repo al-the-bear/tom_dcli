@@ -9,9 +9,9 @@ library;
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart' show Progress, capture;
-import 'package:dcli/src/util/process_helper.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart' show Progress, capture;
+import 'package:tom_dcli/src/util/process_helper.dart';
 
 /// @Throwing(ArgumentError)
 void main() {

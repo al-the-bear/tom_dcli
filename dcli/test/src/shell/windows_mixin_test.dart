@@ -10,9 +10,9 @@ library;
 
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
-import 'package:dcli/windows.dart';
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
+import 'package:tom_dcli/windows.dart';
 import 'package:win32/win32.dart';
 
 /// @Throwing(ArgumentError)

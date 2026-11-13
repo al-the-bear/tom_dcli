@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:dcli/dcli.dart';
 import 'package:path/path.dart' as p;
 import 'package:test/test.dart';
+import 'package:tom_dcli/dcli.dart';
 
 void main() {
   test('unpack preserves bytes across write-buffer boundaries', () {

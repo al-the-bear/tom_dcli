@@ -1,3 +1,17 @@
+# tom_dcli
+
+The Tom Framework's fork of [dcli](https://github.com/onepub-dev/dcli) 10.4.7
+(MIT), published as `tom_dcli`: the same API under `package:tom_dcli/...`,
+with INI files read by dcli's own `IniConfig` instead of the LGPL-3.0 `ini`
+package. Everything else is upstream's. The change is offered upstream; once
+dcli ships it, this fork can be retired.
+
+Three of upstream's util tests (`pub_cache_test.dart` "isRunning from Source"
+and the two in `test_tool_cache_test.dart`) activate fixture packages under
+`dcli_unit_tester/` that depend on the package by its upstream name `dcli`, so
+they fail under the name `tom_dcli`; on the branch `pr/drop-ini`, which keeps
+the name, the whole util suite passes.
+
 # README
 
 See the online [documentation](https://dcli.onepub.dev) for DCli
@@ -32,7 +46,7 @@ DCli is based on Dart which is a modern programming language that has a set of f
 #! /usr/bin/env dcli
 
 import 'dart:io';
-import 'package:dcli/dcli.dart';
+import 'package:tom_dcli/dcli.dart';
 
 void main() {
   var name = ask('name:', required: true, validator: Ask.alpha);
