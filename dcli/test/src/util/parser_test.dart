@@ -52,12 +52,21 @@ dependencies:
         final yamlParser = 'cat $yamlFile'.parser();
         expect((yamlParser.yamlDecode() as Map)['name'], 'pubspec_local');
 
-        join(fsRoot, 'sample.init').write(
-          '''
+        final iniFile = join(fsRoot, 'sample.ini')
+          ..write(
+            '''
+; a comment
+top = level
 [name]
-debug=true''',
-        );
-        // expect('cat $iniFile'.parser().iniDecode().hasSection('name'), true);
+debug=true
+path: /usr/bin
+  /usr/local/bin''',
+          );
+        final ini = 'cat $iniFile'.parser().iniDecode();
+        expect(ini.hasSection('name'), true);
+        expect(ini.get('name', 'debug'), 'true');
+        expect(ini.get('name', 'path'), '/usr/bin\n/usr/local/bin');
+        expect(ini.defaults(), {'top': 'level'});
       });
     },
     skip: false,

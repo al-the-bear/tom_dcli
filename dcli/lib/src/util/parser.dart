@@ -8,8 +8,11 @@
 import 'dart:convert' as convert;
 
 import 'package:csv/csv.dart';
-import 'package:ini/ini.dart';
 import 'package:yaml/yaml.dart';
+
+import 'ini_config.dart';
+
+export 'ini_config.dart';
 
 /// Provides parsers for a number of common file formats.
 ///
@@ -56,8 +59,9 @@ class Parser {
   /// @Throwing(InvalidCsvException)
   List<List<dynamic>> csvDecode() => csv.decode(_lines.join('\n'));
 
-  /// Interprets the read lines as an ini file.
-  /// See https://pub.dev/packages/ini
-  /// @Throwing(Exception)
-  Config iniDecode() => Config.fromStrings(_lines as List<String>);
+  /// Interprets the read lines as an ini file (see [IniConfig] for the
+  /// format).
+  /// @Throwing(FormatException)
+  IniConfig iniDecode() =>
+      IniConfig.fromStrings([for (final line in _lines) line ?? '']);
 }
